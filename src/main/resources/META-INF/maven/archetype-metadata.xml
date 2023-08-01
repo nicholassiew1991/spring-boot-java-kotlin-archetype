@@ -23,6 +23,15 @@ under the License.
   xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
   name="${artifactId}">
 
+  <requiredProperties>
+    <requiredProperty key="springBootVersion">
+      <defaultValue>3.1.2</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="javaVersion">
+      <defaultValue>20</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
+
   <fileSets>
     <fileSet filtered="true" packaged="true">
       <directory>src/main/java</directory>
