@@ -30,6 +30,9 @@ under the License.
     <requiredProperty key="javaVersion">
       <defaultValue>20</defaultValue>
     </requiredProperty>
+    <requiredProperty key="kotlinVersion">
+      <defaultValue>1.9.0</defaultValue>
+    </requiredProperty>
   </requiredProperties>
 
   <fileSets>
@@ -38,6 +41,12 @@ under the License.
     </fileSet>
     <fileSet filtered="true" packaged="true">
       <directory>src/test/java</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>src/main/kotlin</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>src/test/kotlin</directory>
     </fileSet>
   </fileSets>
 </archetype-descriptor>
