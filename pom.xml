@@ -29,7 +29,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Maven Repository</name>
-      <url>https://maven.pkg.github.com/nicholassiew1991/maven-packages-repository</url>
+      <url>https://maven.pkg.github.com/nicholassiew1991/spring-boot-java-kotlin-archetype</url>
     </repository>
   </distributionManagement>
 
