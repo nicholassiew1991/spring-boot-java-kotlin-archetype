@@ -24,15 +24,10 @@ under the License.
   name="${artifactId}">
 
   <requiredProperties>
-    <requiredProperty key="springBootVersion">
-      <defaultValue>3.1.2</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="javaVersion">
-      <defaultValue>20</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="kotlinVersion">
-      <defaultValue>1.9.0</defaultValue>
-    </requiredProperty>
+    <requiredProperty key="springBootVersion" defaultValue="3.1.2" />
+    <requiredProperty key="javaVersion" defaultValue="20" />
+    <requiredProperty key="kotlinVersion" defaultValue="1.9.0" />
+    <requiredProperty key="webProject" defaultValue="true" />
   </requiredProperties>
 
   <fileSets>
