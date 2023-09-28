@@ -4,6 +4,38 @@ Spring Boot Java Kotlin Archetype is a Maven Archetype that help to generate a M
 
 # Usage
 
+## Add Maven Profile
+
+Add following Maven profile to `${user.home}/.m2/settings.xml`
+```xml
+<settings>
+
+  <profiles>
+    <profile>
+      <id>github</id>
+      <repositories>
+        <repository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/nicholassiew1991/spring-boot-java-kotlin-archetype</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+
+  <activeProfiles>
+    <activeProfile>github</activeProfile>
+  </activeProfiles>
+  
+</settings>
+```
+
+## Generate Project
+
+Run the following command to generate the project
+
 ```shell
 mvn archetype:generate \
   -DarchetypeGroupId=io.github.nicholassiew1991 \
