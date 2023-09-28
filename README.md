@@ -4,9 +4,9 @@ Spring Boot Java Kotlin Archetype is a Maven Archetype that help to generate a M
 
 # Usage
 
-## Add Maven Profile
+## Configure Maven Settings
 
-Add following Maven profile to `${user.home}/.m2/settings.xml`
+Add following configuration to `${user.home}/.m2/settings.xml`
 ```xml
 <settings>
 
