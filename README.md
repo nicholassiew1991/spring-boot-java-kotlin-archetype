@@ -40,13 +40,13 @@ Run the following command to generate the project
 mvn archetype:generate \
   -DarchetypeGroupId=io.github.nicholassiew1991 \
   -DarchetypeArtifactId=spring-boot-java-kotlin-archetype \
-  -DarchetypeVersion=1.2.0 \
+  -DarchetypeVersion=1.3.0 \
   -DgroupId={groupId} \
   -DartifactId={artifactId} \
   -Dversion={version} \
   -Dpackage={package} \
   -DspringBootVersion={springBootVersion} \
-  -DwebProject=true
-  -DjavaVersion={javaVersion} \ 
+  -DwebProject=true \
+  -DjavaVersion={javaVersion} \
   -DkotlinVersion={kotlinVersion}
 ```
